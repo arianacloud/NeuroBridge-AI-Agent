@@ -74,6 +74,16 @@ Generates:
 
 ---
 
+## Demo
+
+### Workflow Execution
+
+![Workflow Demo](demo1.png)
+
+### Generated Research Output
+
+![Research Output](demo2.png)
+
 ## Author
 
 Ariana

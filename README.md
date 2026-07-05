@@ -1,51 +1,81 @@
 # 🧠 NeuroBridge AI Agent
 
-Google AI Agents Intensive Capstone Project
+> **From Neuroscience Papers to AI Research Ideas**
 
-## Overview
+Google AI Agents Intensive Capstone Project (2026)
 
-NeuroBridge is a multi-agent AI system that transforms neuroscience research into AI-inspired research ideas.
-
-Instead of simply summarizing scientific papers, NeuroBridge builds a reasoning pipeline where specialized AI agents collaborate to analyze biological concepts and translate them into future AI research directions.
+![Architecture](architecture.png)
 
 ---
 
-## Multi-Agent Workflow
+# Overview
 
-### 🧠 NeuroLens
+NeuroBridge is a multi-agent AI system that transforms neuroscience literature into structured AI research ideas.
+
+Instead of only summarizing scientific papers, NeuroBridge builds a reasoning pipeline where specialized AI agents collaborate sequentially to:
+
+- Understand neuroscience research
+- Extract biological knowledge
+- Connect findings to AI applications
+- Generate future research directions
+
+The goal is to bridge neuroscience discoveries with artificial intelligence innovation.
+
+---
+
+# Problem
+
+Scientific papers contain valuable knowledge, but extracting meaningful insights and converting them into actionable AI research ideas is difficult and time-consuming.
+
+NeuroBridge automates this process using a collaborative Multi-Agent architecture.
+
+---
+
+# Architecture
+
+NeuroBridge consists of three specialized AI agents that work sequentially.
+
+## 🧠 NeuroLens Agent
+
 Analyzes neuroscience papers and extracts:
 
-- Short Summary
-- Key Neuroscience Concepts
-- Biological Mechanisms
-- Brain Regions
-- Cognitive Functions
+- Paper summary
+- Key neuroscience concepts
+- Biological mechanisms
+- Brain regions
+- Cognitive functions
 
 ↓
 
-### 🌉 AIBridge
+## 🤖 AIBridge Agent
 
-Maps biological mechanisms into AI concepts by generating:
+Transforms neuroscience findings into AI opportunities by generating:
 
-- AI Inspiration Table
-- AI Fields
+- AI inspiration table
+- Related AI fields
 - Conclusions
-- Most Promising AI Direction
+- Most promising AI direction
 
 ↓
 
-### 🔬 ResearchMentor
+## 🎓 ResearchMentor Agent
 
 Generates:
 
-- Research Questions
-- AI Project Ideas
-- Recommended Keywords
-- Future Research Directions
+- Research questions
+- AI project ideas
+- Recommended keywords
+- Future research directions
+
+↓
+
+Final Output:
+
+A structured research report combining all agent outputs.
 
 ---
 
-## Technologies
+# Technologies
 
 - Python
 - Google Gemini 2.5 Flash
@@ -54,37 +84,103 @@ Generates:
 
 ---
 
-## Features
+# Key Features
 
-- Multi-Agent AI workflow
+- Multi-Agent workflow
 - Modular architecture
 - Structured scientific analysis
 - AI research idea generation
 - Secure API handling using Colab Secrets
+- Extensible design
 
 ---
 
-## Future Improvements
+# Course Concepts Demonstrated
 
-- PDF upload support
-- PubMed integration
-- RAG knowledge retrieval
-- MCP integration
-- Streamlit interface
+This project demonstrates multiple concepts from the Google AI Agents Intensive course:
+
+✅ Multi-Agent Architecture
+
+✅ Sequential Agent Collaboration
+
+✅ Prompt Engineering
+
+✅ Structured LLM Outputs
+
+✅ Modular Agent Design
 
 ---
 
-## Demo
+# Demo
 
-### Workflow Execution
-The following screenshots demonstrate the complete execution of the NeuroBridge multi-agent pipeline.
+## Workflow Execution
 
-![Workflow Demo](demo1.png)
+The following screenshots demonstrate the execution of the complete NeuroBridge pipeline.
+
+### Agent Workflow
+
+![Workflow](demo1.png)
 
 ### Generated Research Output
 
-![Research Output](demo2.png)
+![Output](demo2.png)
 
-## Author
+---
 
-Ariana
+# Repository Structure
+
+```
+NeuroBridge-AI-Agent/
+│
+├── NeuroBridge_AI_Capstone.ipynb
+├── README.md
+├── architecture.png
+├── demo1.png
+└── demo2.png
+```
+
+---
+
+# Future Improvements
+
+- PDF upload support
+- PubMed integration
+- Retrieval-Augmented Generation (RAG)
+- MCP integration
+- Streamlit interface
+- Deployment as a web application
+
+---
+
+# Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/arianacloud/NeuroBridge-AI-Agent.git
+```
+
+Install dependencies:
+
+```bash
+pip install google-generativeai pandas
+```
+
+Add your Gemini API Key using Google Colab Secrets.
+
+Run the notebook:
+
+```
+NeuroBridge_AI_Capstone.ipynb
+```
+
+---
+
+# Author
+
+**Ariana**
+
+Google AI Agents Intensive Capstone Project (2026)
+
+GitHub:
+https://github.com/arianacloud

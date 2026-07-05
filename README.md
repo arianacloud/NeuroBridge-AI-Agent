@@ -77,6 +77,7 @@ Generates:
 ## Demo
 
 ### Workflow Execution
+The following screenshots demonstrate the complete execution of the NeuroBridge multi-agent pipeline.
 
 ![Workflow Demo](demo1.png)
 

@@ -5,11 +5,11 @@
 ![Multi-Agent](https://img.shields.io/badge/AI-Multi--Agent-purple)
 ![Google AI](https://img.shields.io/badge/Google-AI%20Agents-success)
 
-The diagram below illustrates the complete NeuroBridge multi-agent workflow and information flow between specialized agents.
 > **From Neuroscience Papers to AI Research Ideas**
 
 Google AI Agents Intensive Capstone Project (2026)
 
+The diagram below illustrates the complete NeuroBridge multi-agent workflow and information flow between specialized agents.
 ![Architecture](architecture.png)
 
 ---

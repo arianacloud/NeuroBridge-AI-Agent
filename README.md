@@ -5,6 +5,7 @@
 ![Multi-Agent](https://img.shields.io/badge/AI-Multi--Agent-purple)
 ![Google AI](https://img.shields.io/badge/Google-AI%20Agents-success)
 
+The diagram below illustrates the complete NeuroBridge multi-agent workflow and information flow between specialized agents.
 > **From Neuroscience Papers to AI Research Ideas**
 
 Google AI Agents Intensive Capstone Project (2026)
@@ -36,7 +37,7 @@ NeuroBridge automates this process using a collaborative Multi-Agent architectur
 
 ---
 
-# Architecture
+# 🏗️ System Architecture
 
 NeuroBridge consists of three specialized AI agents that work sequentially.
 
@@ -102,7 +103,7 @@ A structured research report combining all agent outputs.
 
 # Course Concepts Demonstrated
 
-This project demonstrates multiple concepts from the Google AI Agents Intensive course:
+This project demonstrates multiple concepts from the Google AI Agents Intensive course, including multi-agent orchestration, prompt engineering, modular agent design, and structured LLM outputs.
 
 ✅ Multi-Agent Architecture
 

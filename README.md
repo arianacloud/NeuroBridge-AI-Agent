@@ -1,5 +1,10 @@
 # 🧠 NeuroBridge AI Agent
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Gemini](https://img.shields.io/badge/Google-Gemini_2.5_Flash-orange)
+![Multi-Agent](https://img.shields.io/badge/AI-Multi--Agent-purple)
+![Google AI](https://img.shields.io/badge/Google-AI%20Agents-success)
+
 > **From Neuroscience Papers to AI Research Ideas**
 
 Google AI Agents Intensive Capstone Project (2026)
